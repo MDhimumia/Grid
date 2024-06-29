@@ -1,0 +1,49 @@
+/* Basic Changes */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Design Hear */
+
+.Parent{
+    display: grid;
+    grid-template-columns: 3fr 2fr 2fr ;
+    background-color: black;
+}
+.Child1 img{
+    height: 300px;
+    width: 80%; 
+    transform: translateY(30px) translateX(20px); 
+}
+.Child2 img{
+    height: 180px;
+    width: 100%;  
+    transform: translateY(30px) translateX(-55px);  
+}
+.Child3 img{
+    height: 300px;
+    width: 100%;
+    transform: translateY(30px) translateX(-25px); 
+}
+.Child4 img{
+    height: 300px;
+    width: 80%;
+    transform: translateY(60px) translateX(20px);
+}
+.Child5 img{
+    height: 200px;
+    width: 100%;
+    transform: translateY(-70px) translateX(-55px); 
+}
+.Child6 img{
+    height: 300px;
+    width: 100%;
+    transform: translateY(60px) translateX(-25px);  
+}
+.Child7 img{
+    height: 206px;
+    width: 67%;
+    transform: translateX(490px) translateY(-150px);
+}
+    
